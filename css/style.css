@@ -13,7 +13,7 @@ h1 {
 .navbar {
 	padding: 20px;
 	margin-bottom: 20px;
-	background: #2C5F2DFF;
+	background: #009c95;
 	color: #ffe77a;
 	display: flex;
 	justify-content: space-between;
@@ -40,7 +40,7 @@ h1 {
 	margin: 20px auto;
 }
 
-.note-container {
+.trips-container {
 	text-align: center;
 	margin-top: 20px;
 }
@@ -49,4 +49,8 @@ h1 {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 10px;
+}
+
+h1 {
+	text-transform: capitalize;
 }
